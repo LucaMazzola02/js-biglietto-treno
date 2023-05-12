@@ -29,5 +29,5 @@ if (age < 18) {
 
 let spesaNetta = spesa.toFixed(2);
 
-document.getElementById("output").innerHTML = spesaNetta;
+document.getElementById("output").innerHTML = spesaNetta += ' € ';
 
